@@ -100,6 +100,8 @@ public class ImageJ extends Frame implements ActionListener,
 
 	/** Run ImageJ in debug mode. */
 	public static final int DEBUG = 256;
+	
+	public int x = 0;
 
 	private static final String IJ_X="ij.x",IJ_Y="ij.y";
 	private static int port = DEFAULT_PORT;
