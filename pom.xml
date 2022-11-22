@@ -21,12 +21,13 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
+        <properties>
+          <sonar.organization>afbenitez</sonar.organization>
+          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        </properties>
       </plugin>
     </plugins>
   </build>
 </project>
 
-<properties>
-  <sonar.organization>afbenitez</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+
